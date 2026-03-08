@@ -1,0 +1,217 @@
+[
+  {
+    "date": "3月25日",
+    "bgImage": "/pic/bg-0325.png",
+    "whiteText": false,
+    "items": [
+      {
+        "time": "14:00-18:00",
+        "location": "AI原点社区展厅",
+        "activity": "工作坊开营",
+        "signup": "立即报名 >>>"
+      },
+      {
+        "time": "18:00-21:00",
+        "location": "AI原点社区展厅",
+        "activity": "分享开放麦",
+        "signup": "立即报名 >>>"
+      },
+      {
+        "time": "14:00-16:00",
+        "location": "AI原点学堂",
+        "activity": "伦敦商学院带领跨国企业高管<br/>走进海淀",
+        "signup": "立即报名 >>>"
+      },
+      {
+        "time": "16:00-18:00",
+        "location": "AI原点学堂·涌现厅",
+        "activity": "核心博客",
+        "signup": "立即报名 >>>"
+      },
+      {
+        "time": "18:00-21:00",
+        "location": "AI原点学堂",
+        "activity": "冷餐会",
+        "signup": "立即报名 >>>"
+      },
+      {
+        "time": "18:00-21:00",
+        "location": "东升大厦食堂",
+        "activity": "火锅局",
+        "signup": "立即报名 >>>"
+      }
+    ]
+  },
+  {
+    "date": "3月26日",
+    "bgImage": "/pic/bg-0326.png",
+    "whiteText": true,
+    "items": [
+  {
+    "time": "14:00-18:00",
+    "location": "AI原点社区展厅",
+    "activity": "原点学堂·硅基社区嘉年华-AIGC",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "18:00-21:00",
+    "location": "AI原点社区展厅",
+    "activity": "afterparty",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "14:00-16:00",
+    "location": "AI原点学堂·涌现厅",
+    "activity": "系列播客",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "16:00-18:00",
+    "location": "AI原点学堂·涌现厅",
+    "activity": "核心播客",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "18:00-21:00",
+    "location": "AI原点学堂",
+    "activity": "原点学堂·企业家同学交流晚宴",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "18:00-21:00",
+    "location": "东升大厦食堂",
+    "activity": "火锅局-云启资本 Y Transformer",
+    "signup": "立即报名 >>>"
+  }
+]
+  },
+  {
+    "date": "3月27日",
+    "bgImage": "/pic/bg-0327.png",
+    "whiteText": true,
+    "items": [
+  {
+    "time": "14:00-16:00",
+    "location": "AI原点社区展厅",
+    "activity": "比赛时间+开放麦",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "16:00-18:00",
+    "location": "AI原点社区展厅",
+    "activity": "作品提交",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "18:00-21:00",
+    "location": "AI原点社区展厅",
+    "activity": "RTE桌游会",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "09:30-12:00",
+    "location": "AI原点学堂·涌现厅",
+    "activity": "全球人工智能产业交流会",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "14:00-16:00",
+    "location": "AI原点学堂·涌现厅",
+    "activity": "系列播客",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "16:00-18:00",
+    "location": "AI原点学堂·涌现厅",
+    "activity": "核心播客",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "14:00-16:00",
+    "location": "AI原点bar",
+    "activity": "三人行必有AI的panel",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "16:00-18:00",
+    "location": "AI原点bar",
+    "activity": "青少年龙虾vibecoding大赛",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "18:30-22:00",
+    "location": "AI原点学堂",
+    "activity": "用openclaw+skill打造飞书数字团队",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "18:00-21:00",
+    "location": "东升大厦食堂",
+    "activity": "火锅局",
+    "signup": "立即报名 >>>"
+  }
+]
+  },
+  {
+    "date": "3月28日",
+    "bgImage": "/pic/bg-0328.png",
+    "whiteText": false,
+    "items": [
+  {
+    "time": "14:00-18:00",
+    "location": "AI原点社区展厅",
+    "activity": "路演+颁奖",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "14:00-16:00",
+    "location": "AI原点学堂·涌现厅",
+    "activity": "系列播客：Frank+TTC+Psygo AI 播客录制（主持人：AI异类弗兰克 | AI自媒体博主；嘉宾：宁辽原 | TTC 联合创始人 & CTO(前微软研究院 / Azure 云 / 字节跳动飞书技术高管)、龚易明 | Psygo AI 创始人，西交大少年班21岁博士）",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "16:00-18:00",
+    "location": "AI原点学堂·涌现厅",
+    "activity": "核心播客",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "14:00-16:00",
+    "location": "AI原点bar",
+    "activity": "TTC",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "18:00-21:00",
+    "location": "AI原点学堂",
+    "activity": "冷餐会",
+    "signup": "立即报名 >>>"
+  },
+  {
+    "time": "18:00-21:00",
+    "location": "东升大厦食堂",
+    "activity": "硅星人+工作坊火锅局",
+    "signup": "立即报名 >>>"
+  }
+]
+  },
+  {
+    "date": "3月29日",
+    "bgImage": "/pic/bg-0329.png",
+    "whiteText": true,
+    "items": [
+      {
+        "time": "10:00-12:00",
+        "location": "AI原点社区展厅",
+        "activity": "闭幕式",
+        "signup": "立即报名 >>>"
+      },
+      {
+        "time": "14:00-17:00",
+        "location": "AI原点学堂",
+        "activity": "颁奖典礼",
+        "signup": "立即报名 >>>"
+      }
+    ]
+  }
+]
