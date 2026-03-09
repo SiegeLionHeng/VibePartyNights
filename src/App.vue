@@ -3,7 +3,7 @@
     <div class="header">
       <img src="/pic/组 22.png" class="header-img" />
     </div>
-    <div class="schedule-list">
+    <div class="schedule-list" :style="{ top: scheduleListTop + 'px' }">
       <div 
         v-for="(day, dayIndex) in scheduleData" 
         :key="dayIndex"
@@ -16,7 +16,6 @@
             v-for="(item, index) in day.items" 
             :key="index" 
             class="schedule-item"
-            @click="handleItemClick"
           >
             <div class="item-row">
               <div class="time-block">
@@ -27,7 +26,19 @@
             </div>
             <div class="item-row">
               <span class="activity" :class="{ white: day.whiteText }" v-html="item.activity"></span>
-              <span class="signup" :class="{ white: day.whiteText }">{{ item.signup }}</span>
+              <span class="signup-wrapper" :class="{ white: day.whiteText }">
+                <wx-open-launch-weapp 
+                  v-if="isWeChatBrowser"
+                  :appid="item.appId || APP_ID" 
+                  :path="item.path || DEFAULT_PATH"
+                  class="weapp-btn"
+                >
+                  <template #default="scope">
+                    <span class="btn-text">{{ item.signup }}</span>
+                  </template>
+                </wx-open-launch-weapp>
+                <a v-else :href="item.signupUrl || URL_LINK" class="signup-link">{{ item.signup }}</a>
+              </span>
             </div>
             <div class="divider" :class="{ white: day.whiteText }" v-if="index < day.items.length - 1"></div>
           </div>
@@ -41,6 +52,8 @@
           :key="index" 
           :src="img" 
           class="list-item"
+          :ref="el => { if (index === 0) firstImageRef = el }"
+          @load="onFirstImageLoad"
         />
       </div>
     </div>
@@ -51,19 +64,46 @@
 import { ref, onMounted } from 'vue'
 
 const images = [
-  '/pic/images/未标题-1_01.jpg',
-  '/pic/images/未标题-1_02.gif',
-  '/pic/images/未标题-1_03.gif',
-  '/pic/images/未标题-1_04.gif',
-  '/pic/images/未标题-1_05.gif',
-  '/pic/images/未标题-1_06.gif'
+  '/pic/images/bg_01.jpg',
+  '/pic/images/bg_02.jpg',
+  '/pic/images/bg_03.jpg',
+  '/pic/images/bg_04.jpg',
+  '/pic/images/bg_05.jpg',
+  '/pic/images/bg_06.jpg'
 ]
 
 const URL_LINK = 'https://wxaurl.cn/WDb7jXTBqbc'
+const APP_ID = 'wx68aec81c081a8e6c'
+const DEFAULT_PATH = 'subpackages/main/webview/index?activityId=0bcf4dac0c000000&circleId=1&title=activityDetail&fromShare=1'
+
+const isWeChatBrowser = ref(false)
+const firstImageRef = ref(null)
+const scheduleListTop = ref(540)
+
+const onFirstImageLoad = () => {
+  if (firstImageRef.value) {
+    const imageHeight = firstImageRef.value.clientHeight
+    scheduleListTop.value = imageHeight
+  }
+}
+
+const isWeChat = () => {
+  const userAgent = navigator.userAgent.toLowerCase()
+  return userAgent.indexOf('micromessenger') > -1
+}
 
 const scheduleData = ref([])
 
 onMounted(async () => {
+  isWeChatBrowser.value = isWeChat()
+  
+  if (firstImageRef.value) {
+    const imageHeight = firstImageRef.value.clientHeight
+    if (imageHeight > 0) {
+      scheduleListTop.value = imageHeight
+    }
+  }
+  
   try {
     const response = await fetch('/data/schedule.json')
     scheduleData.value = await response.json()
@@ -71,10 +111,6 @@ onMounted(async () => {
     console.error('加载数据失败:', error)
   }
 })
-
-const handleItemClick = () => {
-  window.location.href = URL_LINK
-}
 </script>
 
 <style>
@@ -121,12 +157,13 @@ html, body {
 
 .schedule-list {
   position: absolute;
-  top: 540px;
   left: 10px;
-  right: 10px;
+  right: 0px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  z-index: 10;
+  transition: top 0.3s ease;
 }
 
 .schedule-card {
@@ -200,11 +237,28 @@ html, body {
   color: #000;
 }
 
-.signup {
+.signup-wrapper {
   font-size: 12px;
   font-weight: 500;
   color: #076762;
   white-space: nowrap;
+}
+
+.signup-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.weapp-btn {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.btn-text {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 .divider {
@@ -224,6 +278,11 @@ html, body {
 
 .white.divider {
   background: #fff !important;
+}
+
+.white.weapp-btn,
+.white .btn-text {
+  color: #fff !important;
 }
 
 .content-wrapper {
