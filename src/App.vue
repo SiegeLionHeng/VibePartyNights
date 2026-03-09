@@ -27,16 +27,11 @@
             <div class="item-row">
               <span class="activity" :class="{ white: day.whiteText }" v-html="item.activity"></span>
               <span class="signup-wrapper" :class="{ white: day.whiteText }">
-                <wx-open-launch-weapp 
-                  v-if="isWeChatBrowser"
-                  :appid="item.appId || APP_ID" 
-                  :path="item.path || DEFAULT_PATH"
-                  class="weapp-btn"
-                >
-                  <template #default="scope">
-                    <span class="btn-text">{{ item.signup }}</span>
-                  </template>
-                </wx-open-launch-weapp>
+                <a 
+                  v-if="isWeChatBrowser" 
+                  href="weixin://dl/business/?t=EGWXuTlLv3r" 
+                  class="signup-link"
+                >{{ item.signup }}</a>
                 <a v-else :href="item.signupUrl || URL_LINK" class="signup-link">{{ item.signup }}</a>
               </span>
             </div>
@@ -74,7 +69,7 @@ const images = [
 
 const URL_LINK = 'https://wxaurl.cn/WDb7jXTBqbc'
 const APP_ID = 'wx68aec81c081a8e6c'
-const DEFAULT_PATH = 'subpackages/main/webview/index?activityId=0bcf4dac0c000000&circleId=1&title=activityDetail&fromShare=1'
+const DEFAULT_PATH = 'subpackages/main/webview/index.html?activityId=0bcf4dac0c000000&circleId=1&title=activityDetail&fromShare=1'
 
 const isWeChatBrowser = ref(false)
 const firstImageRef = ref(null)
@@ -133,7 +128,6 @@ html, body {
 .app-container {
   width: 100%;
   min-height: 200vh;
-  background-image: url('/pic/背景图.png');
   background-size: 100% auto;
   background-position: top center;
   background-repeat: no-repeat;
