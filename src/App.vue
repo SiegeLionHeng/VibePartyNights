@@ -9,6 +9,7 @@
       :style="{ top: scheduleListTop + 'px' }"
       :ref="workShopRef"
       @load="onWorkShopLoad"
+      @click="handleWorkShopClick"
     />
     <div class="schedule-list" :style="{ top: scheduleListTop + workShopTop + 'px' }">
       <div 
@@ -43,6 +44,8 @@
           </div>
         </div>
       </div>
+      <img src="/pic/cooperative_partner.png" class="cooperative-partner" />
+
     </div>
     <div class="content-wrapper">
       <div class="image-list">
@@ -75,7 +78,7 @@ const images = [
   '/pic/images/bg_9.jpg',
 ]
 
-const URL_LINK = 'https://wxaurl.cn/WDb7jXTBqbc'
+const URL_LINK = 'https://wxaurl.cn/1Wgv1dOeRls'
 const APP_ID = 'wx68aec81c081a8e6c'
 const DEFAULT_PATH = 'subpackages/main/webview/index.html?activityId=0bcf4dac0c000000&circleId=1&title=activityDetail&fromShare=1'
 
@@ -83,7 +86,7 @@ const isWeChatBrowser = ref(false)
 const isMiniProgram = ref(false)
 const firstImageRef = ref(null)
 const workShopRef = ref(null)
-const workShopTop = ref(120)
+const workShopTop = ref(140)
 const scheduleListTop = ref(540)
 
 const onFirstImageLoad = () => {
@@ -95,7 +98,7 @@ const onFirstImageLoad = () => {
 
 const onWorkShopLoad = () => {
   if (workShopRef.value) {
-    workShopTop.value = workShopRef.value.clientHeight
+    workShopTop.value = workShopRef.value.clientHeight + 15
   }
 }
 
@@ -121,6 +124,10 @@ const handleSignup = (item) => {
   } else {
     window.location.href = item.signupUrl || URL_LINK
   }
+}
+
+const handleWorkShopClick = () => {
+  window.location.href = URL_LINK
 }
 
 const scheduleData = ref([])
@@ -336,5 +343,14 @@ html, body {
 .list-item {
   width: 100%;
   display: block;
+}
+
+.cooperative-partner {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-left: 10px;
+  padding-top: 2px;
 }
 </style>

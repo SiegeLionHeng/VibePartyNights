@@ -5,16 +5,26 @@
     "whiteText": false,
     "items": [
       {
-        "time": "14:00-18:00",
-        "location": "AI原点社区展厅",
+        "time": "16:00-18:00",
+        "location": "AI原点学堂",
         "activity": "工作坊开营",
-        "signup": "立即报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signup": "点击报名 >>>",
+        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "guests": [
+          {
+            "name": "曼达Amanda",
+            "title": "leapo出海营销平台联创 \n Praxis增长营销公会 发起人"
+          },
+          {
+            "name": "苏   菲",
+            "title": "Praxis（AI+出海营销增长公会）\n 联合发起人兼生态合作负责人"
+          }
+        ]
       },
       {
-        "time": "18:00-21:00",
+        "time": "14:00-16:00",
         "location": "AI原点社区展厅",
-        "activity": "分享开放麦",
+        "activity": "LBS 伦敦商学院 MBA、EMBA学生考察团走进海淀",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       },
@@ -23,7 +33,21 @@
         "location": "AI原点学堂",
         "activity": "伦敦商学院带领跨国企业高管<br/>走进海淀",
         "signup": "立即报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "host": {
+          "name": "主持人：张铮",
+          "title": "清华大学学生创业协会 主席"
+        },
+        "guests": [
+          {
+            "name": "嘉宾：唐健凯",
+            "title": "Facephys创始人 \n 清华大学计算机系博士生"
+          },
+          {
+            "name": "王冠博",
+            "title": "cpilot创始人 \n 清华大学计算机系博士生"
+          }
+        ]
       },
       {
         "time": "16:00-18:00",
@@ -42,7 +66,7 @@
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
-        "activity": "火锅局",
+        "activity": "AI火锅局",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       }
