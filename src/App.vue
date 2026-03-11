@@ -25,28 +25,42 @@
             :key="index" 
             class="schedule-item"
           >
-            <div class="item-row">
-              <div class="time-block">
-                <div class="dot" :class="{ white: day.whiteText }"></div>
-                <span class="time-text" :class="{ white: day.whiteText }">{{ item.time }}</span>
+            <div class="item-main">
+              <div class="item-row">
+                <div class="time-block">
+                  <div class="dot" :class="{ white: day.whiteText }"></div>
+                  <span class="time-text" :class="{ white: day.whiteText }">{{ item.time }}</span>
+                </div>
+                <span class="location" :class="{ white: day.whiteText }">{{ item.location }}</span>
               </div>
-              <span class="location" :class="{ white: day.whiteText }">{{ item.location }}</span>
+              <div class="item-row activity-row">
+                <span class="activity" :class="{ white: day.whiteText }" v-html="item.activity"></span>
+                <span 
+                  class="signup" 
+                  :class="{ white: day.whiteText }"
+                  @click="handleSignup(item)"
+                >{{ item.signup }}</span>
+              </div>
             </div>
-            <div class="item-row">
-              <span class="activity" :class="{ white: day.whiteText }" v-html="item.activity"></span>
-              <span 
-                class="signup-wrapper" 
-                :class="{ white: day.whiteText }"
-                @click="handleSignup(item)"
-              >{{ item.signup }}</span>
+            <div class="host-section" v-if="item.host">
+              <span class="host-name" :class="{ white: day.whiteText }">{{ item.host.name }}</span>
+              <div class="host-divider" :class="{ white: day.whiteText }"></div>
+              <span class="host-title" :class="{ white: day.whiteText }" v-html="item.host.title.replace(/\n/g, '<br>')"></span>
+            </div>
+            <div class="guests-section" v-if="item.guests && item.guests.length > 0">
+              <div class="guest" v-for="(guest, gIndex) in item.guests" :key="gIndex">
+                <span class="guest-name" :class="{ white: day.whiteText }">{{ guest.name }}</span>
+                <div class="guest-divider" :class="{ white: day.whiteText }"></div>
+                <span class="guest-title" :class="{ white: day.whiteText }" v-html="guest.title.replace(/\n/g, '<br>')"></span>
+              </div>
             </div>
             <div class="divider" :class="{ white: day.whiteText }" v-if="index < day.items.length - 1"></div>
           </div>
         </div>
       </div>
       <img src="/pic/cooperative_partner.png" class="cooperative-partner" />
-
     </div>
+    
     <div class="content-wrapper">
       <div class="image-list">
         <img 
@@ -221,12 +235,12 @@ html, body {
 }
 
 .date-text {
-  font-size: 24px;
-  font-weight: 800;
+  font-size: 26px;
+  font-weight: 900;
   color: #000;
-  line-height: 32px;
+  line-height: 30px;
   text-align: right;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .schedule-items {
@@ -241,12 +255,89 @@ html, body {
   cursor: pointer;
 }
 
+.item-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+
+.guests-section {
+  margin-top: 8px;
+  margin-left: 11px;
+  display: flex;
+  flex-direction: column;
+}
+
+.guest {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+
+.guest-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+  min-width: 80px;
+}
+
+.guest-divider {
+  width: 13px;
+  height: 1px;
+  background: #000;
+  margin-top: 6px;
+  transform: rotate(90deg);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.guest-title {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+  line-height: 16px;
+}
+
+.host-section {
+  margin-top: 8px;
+  margin-left: 11px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.host-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+}
+
+.host-divider {
+  width: 13px;
+  height: 1px;
+  background: #000;
+  transform: rotate(90deg);
+  margin: 8px 5px 0 5px;
+}
+
+.host-title {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+  line-height: 16px;
+}
+
 .item-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .time-block {
@@ -265,28 +356,28 @@ html, body {
 }
 
 .time-text {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
   color: #000;
   white-space: nowrap;
 }
 
 .location {
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 500;
   color: #000;
 }
 
 .activity {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   color: #000;
 }
 
-.signup-wrapper {
-  font-size: 12px;
+.signup {
+  font-size: 11px;
   font-weight: 500;
-  color: #076762;
+  color: #058c8a;
   white-space: nowrap;
 }
 
@@ -323,6 +414,11 @@ html, body {
 }
 
 .white.divider {
+  background: #fff !important;
+}
+
+.white.guest-divider,
+.white.host-divider {
   background: #fff !important;
 }
 

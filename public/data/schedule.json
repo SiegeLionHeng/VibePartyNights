@@ -50,13 +50,6 @@
         ]
       },
       {
-        "time": "16:00-18:00",
-        "location": "AI原点学堂·涌现厅",
-        "activity": "核心博客",
-        "signup": "立即报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
-      },
-      {
         "time": "18:00-21:00",
         "location": "AI原点学堂",
         "activity": "冷餐会",
@@ -80,23 +73,33 @@
       {
         "time": "14:00-18:00",
         "location": "AI原点社区展厅",
-        "activity": "比赛时间+开放麦",
+        "activity": "IcanX / TTC",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       },
       {
         "time": "18:00-21:00",
         "location": "AI原点社区展厅",
-        "activity": "afterparty",
+        "activity": "响指：VibeCoding\n都是我的错！创作者吐槽酒局",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       },
       {
         "time": "14:00-18:00",
-        "location": "AI原点学堂·涌现厅",
-        "activity": "硅星人",
+        "location": "AI原点学堂",
+        "activity": "具身觉醒与Agent革命",
         "signup": "立即报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "guests": [
+          {
+            "name": "骆轶航",
+            "title": "硅星人创始人&CEO "
+          },
+          {
+            "name": "林俊旸",
+            "title": ""
+          }
+        ]
       },
       {
         "time": "09:00-18:00",
@@ -115,7 +118,7 @@
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
-        "activity": "火锅局-九合创投",
+        "activity": "火锅局-九合奇妙夜",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       }
@@ -129,30 +132,53 @@
       {
         "time": "14:00-18:00",
         "location": "AI原点社区展厅",
-        "activity": "原点学堂·硅基社区嘉年华-AIGC",
+        "activity": "「未来无界」  \nAIGC创新分享会",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       },
       {
         "time": "18:00-21:00",
         "location": "AI原点社区展厅",
-        "activity": "afterparty",
+        "activity": "清智AI-AI 皮克斯",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       },
       {
-        "time": "14:00-16:00",
-        "location": "AI原点学堂·涌现厅",
+        "time": "10:00-12:00",
+        "location": "AI原点学堂",
+        "activity": "核心播客",
+        "signup": "立即报名 >>>",
+        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "guests": [
+          {
+            "name": "宋崇国",
+            "title": "米塔视界CEO"
+          },
+          {
+            "name": "熊昺辉",
+            "title": "可梦AI创始人"
+          }
+        ]
+      },
+      {
+        "time": "13:00-15:00",
+        "location": "AI原点学堂",
         "activity": "系列播客",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       },
       {
-        "time": "16:00-18:00",
-        "location": "AI原点学堂·涌现厅",
+        "time": "15:00-17:00",
+        "location": "AI原点学堂",
         "activity": "核心播客",
         "signup": "立即报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "guests": [
+          {
+            "name": "黄  超",
+            "title": "香港大学数据科学研究所及计算与数据\n科学学院助理教授、博士生导师"
+          }
+        ]
       },
       {
         "time": "18:00-21:00",
@@ -164,7 +190,7 @@
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
-        "activity": "火锅局-云启资本 Y Transformer",
+        "activity": "AI火锅局\n-云启资本 Y Transformer ",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       }
@@ -176,44 +202,78 @@
     "whiteText": false,
     "items": [
       {
-        "time": "14:00-16:00",
-        "location": "AI原点社区展厅",
-        "activity": "比赛时间+开放麦",
-        "signup": "立即报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
-      },
-      {
-        "time": "16:00-18:00",
-        "location": "AI原点社区展厅",
-        "activity": "作品提交",
-        "signup": "立即报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
-      },
-      {
         "time": "18:00-21:00",
         "location": "AI原点社区展厅",
-        "activity": "RTE桌游会",
+        "activity": "RTE开发者社区：AI 主题桌游试玩会",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       },
       {
         "time": "09:30-12:00",
-        "location": "AI原点学堂·涌现厅",
+        "location": "AI原点学堂",
         "activity": "全球人工智能产业交流会",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       },
       {
         "time": "14:00-16:00",
-        "location": "AI原点学堂·涌现厅",
+        "location": "AI原点学堂",
         "activity": "系列播客",
         "signup": "立即报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "guests": [
+          {
+            "name": "周炀皓",
+            "title": "启物科技首席运营官COO"
+          },
+          {
+            "name": "曹德志",
+            "title": "星测未来联合创始人兼COO"
+          }
+        ]
       },
       {
         "time": "16:00-18:00",
-        "location": "AI原点学堂·涌现厅",
-        "activity": "核心播客",
+        "location": "AI原点学堂",
+        "activity": "硅谷AI大厂归国人才系列对话",
+        "signup": "立即报名 >>>",
+        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "host": {
+          "name": "主持人：王兆洋",
+          "title": "硅星人 主编"
+        },
+        "guests": [
+          {
+            "name": "嘉宾：刘   淼",
+            "title": "前 Meta GenAI 高级研究科学家，清华大学人工智能学院助理教授，Llama3/Llama4 多模态核心研发成员；"
+          },
+          {
+            "name": "靳潇杰",
+            "title": "前 Google 研究院、Snap 研究院研究员，北京交通大学计算机学院教授、博导，字节跳动美国研究院创始成员及技术负责人"
+          }
+        ]
+      },
+      {
+        "time": "14:00-16:00",
+        "location": "AI原点bar",
+        "activity": "三人行必有AI",
+        "signup": "立即报名 >>>",
+        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "guests": [
+          {
+            "name": "Claire",
+            "title": "B站百大Up主 "
+          },
+          {
+            "name": "王   晗",
+            "title": "AI 不神秘创始人"
+          }
+        ]
+      },
+      {
+        "time": "16:00-18:00",
+        "location": "AI原点bar",
+        "activity": "青少年龙虾vibecoding大赛",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       },
@@ -221,13 +281,6 @@
         "time": "14:00-16:00",
         "location": "AI原点bar",
         "activity": "三人行必有AI的panel",
-        "signup": "立即报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
-      },
-      {
-        "time": "16:00-18:00",
-        "location": "AI原点bar",
-        "activity": "青少年龙虾vibecoding大赛",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       },
@@ -241,7 +294,7 @@
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
-        "activity": "火锅局",
+        "activity": "AI火锅局",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       }
@@ -255,28 +308,63 @@
       {
         "time": "14:00-18:00",
         "location": "AI原点社区展厅",
-        "activity": "路演+颁奖",
+        "activity": "工作坊路演+颁奖",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       },
       {
-        "time": "14:00-16:00",
-        "location": "AI原点学堂·涌现厅",
-        "activity": "系列播客：Frank+TTC+Psygo AI 播客录制（主持人：AI异类弗兰克 | AI自媒体博主；嘉宾：宁辽原创始人 & CTO(前微软研究院 / Azure 云 / 字节跳动飞书 | TTC 联合技术高管)、龚易明 | Psygo AI 创始人，西交大少年班21岁博士）",
+        "time": "18:00-21:00",
+        "location": "AI原点社区展厅",
+        "activity": "蚂蚁百灵大模型",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+      },
+      {
+        "time": "09:30-12:00",
+        "location": "AI原点学堂",
+        "activity": "系列播客-追觅孵化器",
+        "signup": "立即报名 >>>",
+        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "guests": [
+          {
+            "name": "陈   牧",
+            "title": "星工聚将 技术负责人 "
+          },
+          {
+            "name": "李忠宇",
+            "title": "国金产业研究中心-执行董事"
+          },
+          {
+            "name": "张家兴",
+            "title": "招商局集团首席人工智能科学家"
+          }
+        ]
+      },
+      {
+        "time": "14:00-16:00",
+        "location": "AI原点学堂",
+        "activity": "OpenClaw之后，AI的未来在哪里？",
+        "signup": "立即报名 >>>",
+        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "host": {
+          "name": "主持人：AI异类弗兰克",
+          "title": "AI自媒体博主"
+        },
+        "guests": [
+          {
+            "name": "嘉宾：宁辽原 ",
+            "title": "TTC 联合创始人 & CTO(前微软研究院 / Azure 云 / 字节跳动飞书技术高管)"
+          },
+          {
+            "name": "龚易明",
+            "title": "Psygo AI 创始人，西交大少年班21岁博士"
+          }
+        ]
       },
       {
         "time": "16:00-18:00",
-        "location": "AI原点学堂·涌现厅",
+        "location": "AI原点学堂",
         "activity": "核心播客",
-        "signup": "立即报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
-      },
-      {
-        "time": "14:00-16:00",
-        "location": "AI原点bar",
-        "activity": "TTC",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       },
@@ -290,7 +378,7 @@
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
-        "activity": "硅星人+工作坊火锅局",
+        "activity": "AI火锅局-硅星人和他的伙伴们",
         "signup": "立即报名 >>>",
         "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
       }
