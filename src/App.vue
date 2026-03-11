@@ -1,9 +1,16 @@
 <template>
   <div class="app-container">
     <div class="header">
-      <img src="/pic/组 22.png" class="header-img" />
+      <img src="/pic/logo.png" class="header-img" />
     </div>
-    <div class="schedule-list" :style="{ top: scheduleListTop + 'px' }">
+    <img 
+      src="/pic/work_shop.png" 
+      class="work-shop-img"
+      :style="{ top: scheduleListTop + 'px' }"
+      :ref="workShopRef"
+      @load="onWorkShopLoad"
+    />
+    <div class="schedule-list" :style="{ top: scheduleListTop + workShopTop + 'px' }">
       <div 
         v-for="(day, dayIndex) in scheduleData" 
         :key="dayIndex"
@@ -26,14 +33,11 @@
             </div>
             <div class="item-row">
               <span class="activity" :class="{ white: day.whiteText }" v-html="item.activity"></span>
-              <span class="signup-wrapper" :class="{ white: day.whiteText }">
-                <a 
-                  v-if="isWeChatBrowser" 
-                  href="weixin://dl/business/?t=EGWXuTlLv3r" 
-                  class="signup-link"
-                >{{ item.signup }}</a>
-                <a v-else :href="item.signupUrl || URL_LINK" class="signup-link">{{ item.signup }}</a>
-              </span>
+              <span 
+                class="signup-wrapper" 
+                :class="{ white: day.whiteText }"
+                @click="handleSignup(item)"
+              >{{ item.signup }}</span>
             </div>
             <div class="divider" :class="{ white: day.whiteText }" v-if="index < day.items.length - 1"></div>
           </div>
@@ -57,14 +61,18 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import jweixin from 'weixin-js-sdk'
 
 const images = [
-  '/pic/images/bg_01.jpg',
-  '/pic/images/bg_02.jpg',
-  '/pic/images/bg_03.jpg',
-  '/pic/images/bg_04.jpg',
-  '/pic/images/bg_05.jpg',
-  '/pic/images/bg_06.jpg'
+  '/pic/images/bg_1.jpg',
+  '/pic/images/bg_2.jpg',
+  '/pic/images/bg_3.jpg',
+  '/pic/images/bg_4.jpg',
+  '/pic/images/bg_5.jpg',
+  '/pic/images/bg_6.jpg',
+  '/pic/images/bg_7.jpg',
+  '/pic/images/bg_8.jpg',
+  '/pic/images/bg_9.jpg',
 ]
 
 const URL_LINK = 'https://wxaurl.cn/WDb7jXTBqbc'
@@ -72,7 +80,10 @@ const APP_ID = 'wx68aec81c081a8e6c'
 const DEFAULT_PATH = 'subpackages/main/webview/index.html?activityId=0bcf4dac0c000000&circleId=1&title=activityDetail&fromShare=1'
 
 const isWeChatBrowser = ref(false)
+const isMiniProgram = ref(false)
 const firstImageRef = ref(null)
+const workShopRef = ref(null)
+const workShopTop = ref(120)
 const scheduleListTop = ref(540)
 
 const onFirstImageLoad = () => {
@@ -82,15 +93,41 @@ const onFirstImageLoad = () => {
   }
 }
 
+const onWorkShopLoad = () => {
+  if (workShopRef.value) {
+    workShopTop.value = workShopRef.value.clientHeight
+  }
+}
+
 const isWeChat = () => {
   const userAgent = navigator.userAgent.toLowerCase()
   return userAgent.indexOf('micromessenger') > -1
+}
+
+const isInMiniProgram = () => {
+  return window.__wxjs_environment === 'miniprogram' || navigator.userAgent.includes('miniProgram')
+}
+
+const handleSignup = (item) => {
+  const activityId = item.activityId || '0bcf4dac0c000000'
+  const circleId = item.circleId || '1'
+  
+  if (isMiniProgram.value) {
+    jweixin.miniProgram.redirectTo({
+      url: `/subpackages/main/webview/index?activityId=${activityId}&circleId=${circleId}&title=activityDetail`
+    })
+  } else if (isWeChatBrowser.value) {
+    window.location.href = 'weixin://dl/business/?t=EGWXuTlLv3r'
+  } else {
+    window.location.href = item.signupUrl || URL_LINK
+  }
 }
 
 const scheduleData = ref([])
 
 onMounted(async () => {
   isWeChatBrowser.value = isWeChat()
+  isMiniProgram.value = isInMiniProgram()
   
   if (firstImageRef.value) {
     const imageHeight = firstImageRef.value.clientHeight
@@ -143,10 +180,18 @@ html, body {
 }
 
 .header-img {
-  width: 70%;
+  width: 90%;
   display: block;
   margin: 0 auto;
   padding-top: 140px;
+}
+
+.work-shop-img {
+  position: absolute;
+  left: 10px;
+  right: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .schedule-list {
