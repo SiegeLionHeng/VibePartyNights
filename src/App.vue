@@ -90,9 +90,10 @@ const images = [
   '/pic/images/bg_7.jpg',
   '/pic/images/bg_8.jpg',
   '/pic/images/bg_9.jpg',
+  '/pic/images/bg_10.jpg',
 ]
 
-const URL_LINK = 'https://wxaurl.cn/1Wgv1dOeRls'
+const URL_LINK = 'https://wxaurl.cn/pv06OiAxZyn'
 const APP_ID = 'wx68aec81c081a8e6c'
 const DEFAULT_PATH = 'subpackages/main/webview/index.html?activityId=0bcf4dac0c000000&circleId=1&title=activityDetail&fromShare=1'
 

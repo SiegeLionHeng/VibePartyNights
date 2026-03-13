@@ -5,7 +5,7 @@ import json
 APP_ID = "wx68aec81c081a8e6c"          # 替换成你的小程序AppID
 APP_SECRET = "29d22ed0011fa2cd0fae97d803a612e7"  # 替换成你的小程序AppSecret
 TARGET_PATH = "subpackages/main/webview/index"   # 要跳转的小程序页面路径（如pages/home/index）
-TARGET_QUERY = "activityId=0bcf4dac0c000000&circleId=1&title=activityDetail&fromShare=1"   # 页面启动参数（可选，格式key=value&key2=value2）
+TARGET_QUERY = "activityId=0bd62054a4c00000&circleId=1&title=activityDetail&fromShare=1"   # 页面启动参数（可选，格式key=value&key2=value2）
 IS_EXPIRE = False                    # 是否设置过期时间（True=是，False=否）
 EXPIRE_TYPE = 1                     # 过期类型：1=天，2=秒
 EXPIRE_INTERVAL = 1                 # 过期时长：配合EXPIRE_TYPE，1=1天/1秒

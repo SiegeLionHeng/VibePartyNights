@@ -1,46 +1,48 @@
 [
   {
-    "date": "3月25日",
-    "bgImage": "/pic/bg-0325.png",
-    "whiteText": false,
+    "date": "第一天",
     "items": [
       {
-        "time": "16:00-18:00",
-        "location": "AI原点学堂展厅",
+        "time": "14:00-18:00",
+        "location": "AI原点社区展厅",
         "activity": "工作坊开营",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/PuGIcW2dFnl"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
-        "time": "09:00-12:00",
+        "time": "09:30-12:00",
         "location": "AI原点学堂",
-        "activity": "系列播客 - AI 出海",
+        "activity": "系列播客-AI出海",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/YK6G4LCAfZj",
+        "signupUrl": "",
         "host": {
           "name": "主持人：朱峰",
           "title": "津津乐道创始人"
         },
         "guests": [
           {
-            "name": "曼达Amanda",
-            "title": "leapo出海营销平台联创 \n Praxis增长营销公会 发起人"
+            "name": "嘉宾：曼达Amanda",
+            "title": "Leapo出海营销平台 联创；Praxis增长营销公会发起人"
           },
           {
-            "name": "苏   菲",
-            "title": "Praxis（AI+出海营销增长公会）\n 联合发起人兼生态合作负责人"
+            "name": "嘉宾：苏菲",
+            "title": "Praxis联合发起人兼生态合作负责人"
           }
         ]
       },
       {
         "time": "14:00-16:00",
-        "location": "AI原点社区展厅",
+        "location": "AI原点学堂",
         "activity": "LBS 伦敦商学院 MBA、EMBA学生考察团走进海淀",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/dRa0xFFvB9c"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
-        "time": "14:00-16:00",
+        "time": "16:00-18:00",
         "location": "AI原点学堂",
         "activity": "播客主打秀 - 清华创协的播客：AI浪潮下，从象牙塔青年掀起的一朵朵创业浪花",
         "signup": "点击报名 >>>",
@@ -68,43 +70,49 @@
         "time": "18:00-21:00",
         "location": "AI原点学堂",
         "activity": "冷餐会",
-        "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/dumcqLPXUEa"
+        "signup": "【开放报名】>>>",
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
         "activity": "AI火锅局",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/5hEPNi1TXAv"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       }
     ]
   },
   {
-    "date": "3月26日",
-    "bgImage": "/pic/bg-0326.png",
-    "whiteText": true,
+    "date": "第二天",
     "items": [
       {
         "time": "14:00-18:00",
         "location": "AI原点社区展厅",
         "activity": "【工作坊】iCANLab/ TTC：AI时代的人才解码",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "18:00-21:00",
         "location": "AI原点社区展厅",
         "activity": "【工作坊】响指：VibeCoding，都是我的错！创作者吐槽酒局",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "14:00-18:00",
         "location": "AI原点学堂",
         "activity": "播客主打秀 - 具身觉醒与Agent革命",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "signupUrl": "",
         "host": {
           "name": "主持人：骆铁艇",
           "title": "硅星人创始人&CEO"
@@ -121,49 +129,57 @@
         "location": "AI原点bar",
         "activity": "疯狂星期四",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "18:00-21:00",
         "location": "AI原点学堂",
         "activity": "冷餐会",
-        "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signup": "【开放报名】>>>",
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
         "activity": "AI火锅局-九合号砂茶",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       }
     ]
   },
   {
-    "date": "3月27日",
-    "bgImage": "/pic/bg-0327.png",
-    "whiteText": true,
+    "date": "第三天",
     "items": [
       {
         "time": "14:00-18:00",
         "location": "AI原点社区展厅",
         "activity": "【工作坊】「未来无界」AIGC创新分享会",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "18:00-21:00",
         "location": "AI原点社区展厅",
         "activity": "【工作坊】清智AI~AI 皮克斯",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "10:00-12:00",
         "location": "AI原点学堂",
         "activity": "系列播客 - 空间智能与内容工业化",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "signupUrl": "",
         "host": {
           "name": "主持人：薛彦泽",
           "title": "51CTO 主编"
@@ -184,14 +200,16 @@
         "location": "AI原点学堂",
         "activity": "播客主打秀",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "15:00-17:00",
         "location": "AI原点学堂",
         "activity": "播客主打秀",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "signupUrl": "",
         "host": {
           "name": "主持人：卜兹尧",
           "title": ""
@@ -208,42 +226,48 @@
         "location": "AI原点学堂",
         "activity": "原点学堂：企业家交流晚宴",
         "signup": "【开放报名】>>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
         "activity": "AI火锅局-云启资本 Y Transformer",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "18:00-21:00",
         "location": "AI原点社区展厅",
         "activity": "【工作坊】RTE开发者社区：AI主题桌游游戏玩会",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       }
     ]
   },
   {
-    "date": "3月28日",
-    "bgImage": "/pic/bg-0328.png",
-    "whiteText": false,
+    "date": "第四天",
     "items": [
       {
         "time": "09:30-12:00",
         "location": "AI原点学堂",
         "activity": "全球人工智能产业交流会",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
-       "time": "14:00-16:00",
+        "time": "14:00-16:00",
         "location": "AI原点学堂",
         "activity": "系列播客 - “天基智能”与“地面具身”",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "signupUrl": "",
         "host": {
           "name": "主持人：王冬川",
           "title": "科技漩涡创始人"
@@ -264,7 +288,7 @@
         "location": "AI原点学堂",
         "activity": "播客主打秀 - 硅谷AI大厂归国人才系列对话",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "signupUrl": "",
         "host": {
           "name": "主持人：王兆法",
           "title": "硅星人 主编"
@@ -285,7 +309,7 @@
         "location": "AI原点bar",
         "activity": "三个年轻妈妈和一个AI时代教育与活方式",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "signupUrl": "",
         "host": {
           "name": "主持人：王 晔",
           "title": "AI启明妈妈发起人"
@@ -310,42 +334,48 @@
         "location": "AI原点学堂",
         "activity": "OpenClaw skibidi 造 飞书数字团队",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "18:00-21:00",
         "location": "AI原点学堂",
         "activity": "冷餐会",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
         "activity": "AI火锅局",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       }
     ]
   },
   {
-    "date": "3月29日",
-    "bgImage": "/pic/bg-0329.png",
-    "whiteText": true,
+    "date": "第五天",
     "items": [
       {
         "time": "14:00-18:00",
         "location": "AI原点社区展厅",
         "activity": "【工作坊】跃运+顶流",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "09:30-12:00",
         "location": "AI原点学堂",
         "activity": "系列播客+具身智能",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "signupUrl": "",
         "host": {
           "name": "主持人：陈妙戈",
           "title": "InfoQ 策划编辑"
@@ -366,7 +396,7 @@
         "location": "AI原点学堂",
         "activity": "系列播客大咖聊AI之后",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls",
+        "signupUrl": "",
         "host": {
           "name": "主持人：AI探索弗兰克",
           "title": "联众百炼大使 CTO 私教"
@@ -391,14 +421,18 @@
         "location": "AI原点学堂",
         "activity": "冷餐会",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       },
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
         "activity": "AI火锅局-硅星人和他的伙伴们",
         "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/1Wgv1dOeRls"
+        "signupUrl": "",
+        "host": {},
+        "guests": []
       }
     ]
   }
