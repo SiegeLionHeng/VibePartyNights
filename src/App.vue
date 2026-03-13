@@ -24,6 +24,7 @@
             v-for="(item, index) in day.items" 
             :key="index" 
             class="schedule-item"
+            @click="handleSignup(item)"
           >
             <div class="item-main">
               <div class="item-row">
@@ -38,7 +39,6 @@
                 <span 
                   class="signup" 
                   :class="{ white: day.whiteText }"
-                  @click="handleSignup(item)"
                 >{{ item.signup }}</span>
               </div>
             </div>
