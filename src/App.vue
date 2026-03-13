@@ -89,7 +89,6 @@ const images = [
   '/pic/images/bg_6.jpg',
   '/pic/images/bg_7.jpg',
   '/pic/images/bg_8.jpg',
-  '/pic/images/bg_9.jpg',
   '/pic/images/bg_10.jpg',
 ]
 
