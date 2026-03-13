@@ -93,7 +93,7 @@ const images = [
   '/pic/images/bg_10.jpg',
 ]
 
-const URL_LINK = 'https://wxaurl.cn/pv06OiAxZyn'
+const URL_LINK = 'https://wxaurl.cn/XyhReePiUFp'
 const APP_ID = 'wx68aec81c081a8e6c'
 const DEFAULT_PATH = 'subpackages/main/webview/index.html?activityId=0bcf4dac0c000000&circleId=1&title=activityDetail&fromShare=1'
 
@@ -130,15 +130,7 @@ const handleSignup = (item) => {
   const activityId = item.activityId || '0bcf4dac0c000000'
   const circleId = item.circleId || '1'
   
-  if (isMiniProgram.value) {
-    jweixin.miniProgram.redirectTo({
-      url: `/subpackages/main/webview/index?activityId=${activityId}&circleId=${circleId}&title=activityDetail`
-    })
-  } else if (isWeChatBrowser.value) {
-    window.location.href = 'weixin://dl/business/?t=EGWXuTlLv3r'
-  } else {
-    window.location.href = item.signupUrl || URL_LINK
-  }
+  window.location.href = item.signupUrl || URL_LINK
 }
 
 const handleWorkShopClick = () => {
@@ -177,11 +169,13 @@ onMounted(async () => {
 html, body {
   width: 100%;
   min-height: 100%;
+  background-color: transparent;
 }
 
 #app {
   width: 100%;
   min-height: 100%;
+  background-color: transparent;
 }
 
 .app-container {
@@ -212,7 +206,7 @@ html, body {
   position: absolute;
   left: 10px;
   right: 0;
-  width: 100%;
+  width: 97.3%;
   z-index: 100;
 }
 
@@ -282,7 +276,7 @@ html, body {
 }
 
 .guest-name {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: #000;
   min-width: 80px;
@@ -313,7 +307,7 @@ html, body {
 }
 
 .host-name {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: #000;
 }
@@ -357,26 +351,27 @@ html, body {
 }
 
 .time-text {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 500;
   color: #000;
   white-space: nowrap;
 }
 
 .location {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 500;
   color: #000;
 }
 
 .activity {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
+  margin-right: 5px;
   color: #000;
 }
 
 .signup {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 500;
   color: #058c8a;
   white-space: nowrap;
