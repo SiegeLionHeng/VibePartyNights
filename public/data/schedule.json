@@ -7,14 +7,14 @@
       {
         "time": "16:00-18:00",
         "location": "AI原点学堂展厅",
-        "activity": "工作坊开营",
+        "activity": "【AI工作坊 Hackathon】工作坊开营",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/frPCJqRpZ6e"
       },
       {
         "time": "09:00-12:00",
         "location": "AI原点学堂",
-        "activity": "系列播客 - AI 出海",
+        "activity": "【嗨点小圆桌 Podcast】\n Praxis On Mic ｜ \n 从中国出发，到全球增长",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/mrg5HmYhNyh",
         "host": {
@@ -34,21 +34,10 @@
       },
       {
         "time": "14:00-16:00",
-        "location": "AI原点社区展厅",
-        "activity": "LBS 伦敦商学院 MBA、EMBA学生考察团走进海淀",
-        "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/Z2rkusqJzco"
-      },
-      {
-        "time": "14:00-16:00",
         "location": "AI原点学堂",
-        "activity": "播客主打秀 - 清华创协的播客：AI浪潮下，从象牙塔青年掀起的一朵朵创业浪花",
+        "activity": "【嗨点小圆桌 Podcast】AI浪潮下，从象牙塔青年掀起的一朵朵创业浪花",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/RBTUrkU1wMb",
-        "host": {
-          "name": "主持人：王昕祎",
-          "title": "量子位智库首席分析师"
-        },
         "guests": [
           {
             "name": "嘉宾：唐健凯",
@@ -67,14 +56,14 @@
       {
         "time": "18:00-21:00",
         "location": "AI原点学堂",
-        "activity": "冷餐会",
+        "activity": "【原点派对夜 Social】冷餐会",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/sAwyyWqlNqd"
       },
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
-        "activity": "AI火锅局",
+        "activity": "【原点派对夜 Social】AI火锅局",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/irqUDyBCh1p"
       }
@@ -88,33 +77,16 @@
       {
         "time": "14:00-18:00",
         "location": "AI原点社区展厅",
-        "activity": "【工作坊】iCANLab/ TTC：AI时代的人才解码",
+        "activity": "AI时代的人才解码",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/efQoP9ggRcb"
       },
       {
         "time": "18:00-21:00",
         "location": "AI原点社区展厅",
-        "activity": "【工作坊】响指：VibeCoding，都是我的错！创作者吐槽酒局",
+        "activity": "VibeCoding，都是我的错！创作者吐槽酒局",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/82PtX0Kv4bm"
-      },
-      {
-        "time": "14:00-18:00",
-        "location": "AI原点学堂",
-        "activity": "播客主打秀 - 具身觉醒与Agent革命",
-        "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/OWpIBg1KhCs",
-        "host": {
-          "name": "主持人：骆铁艇",
-          "title": "硅星人创始人&CEO"
-        },
-        "guests": [
-          {
-            "name": "嘉宾：杨植麟",
-            "title": "月之暗面创始人&CEO"
-          }
-        ]
       },
       {
         "time": "09:00-18:00",
@@ -126,14 +98,14 @@
       {
         "time": "18:00-21:00",
         "location": "AI原点学堂",
-        "activity": "冷餐会",
+        "activity": "【原点派对夜 Social】冷餐会",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/lIhYbf4pf5i"
       },
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
-        "activity": "AI火锅局-九合奇妙夜",
+        "activity": "【原点派对夜 Social】AI火锅局-九合奇妙夜",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/KlntJhBFGxc"
       }
@@ -147,21 +119,21 @@
       {
         "time": "14:00-18:00",
         "location": "AI原点社区展厅",
-        "activity": "【工作坊】「未来无界」AIGC创新分享会",
+        "activity": "不下牌桌 & 原点·硅基社区：AIGC创新分享会",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/wctKjx8vNye"
       },
       {
         "time": "18:00-21:00",
         "location": "AI原点社区展厅",
-        "activity": "【工作坊】清智AI~AI 皮克斯",
+        "activity": "T-ONE创新中心：当超级个体遇上超级代码",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/ll8KhO9C6Iu"
       },
       {
         "time": "10:00-12:00",
         "location": "AI原点学堂",
-        "activity": "系列播客 - 空间智能与内容工业化",
+        "activity": "【嗨点小圆桌 Podcast】空间智能与内容工业化",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/ktdPkGOV88h",
         "host": {
@@ -182,18 +154,18 @@
       {
         "time": "13:00-15:00",
         "location": "AI原点学堂",
-        "activity": "播客主打秀",
+        "activity": "【嗨点小圆桌 Podcast】",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/JSKuCxZRkAf"
       },
       {
         "time": "15:00-17:00",
         "location": "AI原点学堂",
-        "activity": "播客主打秀",
+        "activity": "【嗨点小圆桌 Podcast】",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/iU4X7hUEeGl",
         "host": {
-          "name": "主持人：卜兹尧",
+          "name": "主持人：卜兹尧(拟邀)",
           "title": ""
         },
         "guests": [
@@ -206,14 +178,14 @@
       {
         "time": "18:00-21:00",
         "location": "AI原点学堂",
-        "activity": "原点学堂：企业家交流晚宴",
+        "activity": "【原点派对夜 Social】原点同学会见面日\n“钳”里无限·破圆之夜",
         "signup": "【开放报名】>>>",
         "signupUrl": "https://wxaurl.cn/7wbzeMh7dov"
       },
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
-        "activity": "AI火锅局-云启资本 Y Transformer",
+        "activity": "【原点派对夜 Social】AI火锅局-云启资本 Y Transformer",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/7eb4MzydLOo"
       }
@@ -227,21 +199,21 @@
       {
         "time": "18:00-21:00",
         "location": "AI原点社区展厅",
-        "activity": "【工作坊】RTE开发者社区：AI主题桌游游戏玩会",
+        "activity": "《Talk With》AI主题桌游游戏玩会",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/h3zOQMcLjNg"
       },
       {
         "time": "09:30-12:00",
         "location": "AI原点学堂",
-        "activity": "全球人工智能产业交流会",
+        "activity": "人工智能产业沙龙",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/fMGB5Xf6a1j"
       },
       {
        "time": "14:00-16:00",
         "location": "AI原点学堂",
-        "activity": "系列播客 - “天基智能”与“地面具身”",
+        "activity": "【嗨点小圆桌 Podcast】“天基智能”与“地面具身”",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/7qWQXrxyAMa",
         "host": {
@@ -262,7 +234,7 @@
       {
         "time": "16:00-18:00",
         "location": "AI原点学堂",
-        "activity": "播客主打秀 - 硅谷AI大厂归国人才系列对话",
+        "activity": "【AI嗨点小圆桌 Podcast】硅谷AI大厂归国人才系列对话",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/2sC7Ay9Ot3p",
         "host": {
@@ -283,7 +255,7 @@
       {
         "time": "14:00-18:00",
         "location": "AI原点bar",
-        "activity": "三人行必有AI——AI时代教育范式&青少年龙虾黑客松",
+        "activity": "AI时代教育范式&龙虾避坑指南",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/qeIMabLBJgo",
         "host": {
@@ -315,7 +287,7 @@
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
-        "activity": "AI火锅局",
+        "activity": "【原点派对夜 Social】AI火锅局",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/1wX9mTlofRs"
       }
@@ -329,14 +301,14 @@
       {
         "time": "14:00-18:00",
         "location": "AI原点社区展厅",
-        "activity": "【工作坊】路演+颁奖",
+        "activity": "【AI工作坊 Hackathon】路演+颁奖",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/zrAQd4WfwTg"
       },
       {
         "time": "09:30-12:00",
         "location": "AI原点学堂",
-        "activity": "系列播客+具身智能",
+        "activity": "【AI嗨点小圆桌 Podcast】具身智能",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/hE4frQjeWfg",
         "host": {
@@ -357,7 +329,7 @@
       {
         "time": "14:00-16:00",
         "location": "AI原点学堂",
-        "activity": "系列博客 - OpenClaw之后，AI的未来在哪里？",
+        "activity": "【AI嗨点小圆桌 Podcast】OpenClaw之后，AI的未来在哪里？",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/wapz9NJ9XKl",
         "host": {
@@ -382,14 +354,14 @@
       {
         "time": "18:00-21:00",
         "location": "AI原点学堂",
-        "activity": "冷餐会",
+        "activity": "【原点派对夜 Social】冷餐会",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/xAhm257ziBt"
       },
       {
         "time": "18:00-21:00",
         "location": "东升大厦食堂",
-        "activity": "AI火锅局-硅星人和他的伙伴们",
+        "activity": "【原点派对夜 Social】AI火锅局-硅星人和他的伙伴们",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/yVO4wF3rT8b"
       }

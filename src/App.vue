@@ -92,7 +92,7 @@ const images = [
   '/pic/images/bg_10.jpg',
 ]
 
-const URL_LINK = 'https://wxaurl.cn/XyhReePiUFp'
+const URL_LINK = 'https://wxaurl.cn/ThyeBBtTz6q'
 const APP_ID = 'wx68aec81c081a8e6c'
 const DEFAULT_PATH = 'subpackages/main/webview/index.html?activityId=0bcf4dac0c000000&circleId=1&title=activityDetail&fromShare=1'
 
@@ -292,7 +292,7 @@ html, body {
 }
 
 .guest-title {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   color: #000;
   line-height: 16px;
@@ -320,7 +320,7 @@ html, body {
 }
 
 .host-title {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   color: #000;
   line-height: 16px;
