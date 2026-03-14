@@ -5,14 +5,14 @@
     "whiteText": false,
     "items": [
       {
-        "time": "16:00-18:00",
+        "time": "14:00-18:00",
         "location": "AI原点社区原点大厦展厅",
         "activity": "【AI工作坊 Hackathon】工作坊开营",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/frPCJqRpZ6e"
       },
       {
-        "time": "09:00-12:00",
+        "time": "09:30-12:00",
         "location": "原点学堂",
         "activity": "【嗨点小圆桌 Podcast】\n Praxis On Mic ｜ \n 从中国出发，到全球增长",
         "signup": "点击报名 >>>",
@@ -23,21 +23,25 @@
         },
         "guests": [
           {
-            "name": "曼达Amanda",
+            "name": "嘉宾：Amanda",
             "title": "leapo出海营销平台联创 \n Praxis增长营销公会 发起人"
           },
           {
-            "name": "苏   菲",
+            "name": "嘉宾：苏菲",
             "title": "Praxis（AI+出海营销增长公会）\n 联合发起人兼生态合作负责人"
           }
         ]
       },
       {
-        "time": "14:00-16:00",
+        "time": "16:00-18:00",
         "location": "原点学堂",
         "activity": "【嗨点小圆桌 Podcast】AI浪潮下，从象牙塔青年掀起的一朵朵创业浪花",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/RBTUrkU1wMb",
+        "host": {
+          "name": "主持人：王昕炜",
+          "title": "量子位智库首席分析师"
+        },
         "guests": [
           {
             "name": "嘉宾：唐健凯",
@@ -89,9 +93,9 @@
         "signupUrl": "https://wxaurl.cn/82PtX0Kv4bm"
       },
       {
-        "time": "09:00-18:00",
+        "time": "10:00-18:00",
         "location": "原点bar",
-        "activity": "疯狂星期四",
+        "activity": "疯狂星期四 x Vibe Launch",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/ODBoGkRVKsn"
       },
@@ -105,7 +109,7 @@
       {
         "time": "18:00-21:00",
         "location": "原点大厦食堂",
-        "activity": "【原点派对夜 Social】AI火锅局-九合奇妙夜",
+        "activity": "【原点派对夜 Social】AI火锅局-九合创投AI奇妙夜",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/KlntJhBFGxc"
       }
@@ -143,11 +147,11 @@
         "guests": [
           {
             "name": "嘉宾：李崇国",
-            "title": "必境视角CEO"
+            "title": "米塔视角CEO"
           },
           {
-            "name": "嘉宾：熊晨皓",
-            "title": "马签AI创始人"
+            "name": "嘉宾：熊昺辉",
+            "title": "可梦AI创始人"
           }
         ]
       },
@@ -165,12 +169,12 @@
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/iU4X7hUEeGl",
         "host": {
-          "name": "主持人：卜兹尧(拟邀)",
+          "name": "主持人：卡兹克(拟邀)",
           "title": ""
         },
         "guests": [
           {
-            "name": "嘉宾：曹超",
+            "name": "嘉宾：黄超",
             "title": "香港大学数据科学研究所及计算智能与数据科学子学院助理教授、博士生导师"
           }
         ]
@@ -217,16 +221,16 @@
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/7qWQXrxyAMa",
         "host": {
-          "name": "主持人：王冬川",
-          "title": "科技漩涡创始人"
+          "name": "主持人：王秦州",
+          "title": "自媒体科技捕手联合主理人、Tech Bridge北京负责人"
         },
         "guests": [
           {
-            "name": "嘉宾：周焯晖",
-            "title": "巨物科技首席运营官&COO"
+            "name": "嘉宾：周炀皓",
+            "title": "启物科技首席运营官COO"
           },
           {
-            "name": "嘉宾：黄德平",
+            "name": "嘉宾：曹德志",
             "title": "星测未来联合创始人兼COO"
           }
         ]
@@ -243,12 +247,12 @@
         },
         "guests": [
           {
-            "name": "嘉宾：刘泰",
-            "title": "前 Meta GenAI 高级研究科学家，清华大学人文学院智能多媒体所助理教授，Llama/Llama3 多模态核心研发成员"
+            "name": "嘉宾：刘淼",
+            "title": "前 Meta GenAI 高级研究科学家，清华大学人工智能学院助理教授，Llama3/Llama4 多模态核心研发成员"
           },
           {
             "name": "嘉宾：靳潇杰",
-            "title": "前 Google 研究院、Snap 研究院研究人员，计算机视觉研究，北京交通大学计算机学院副教授、博导，字节跳动美国研究院创始成员及技术负责人"
+            "title": "前 Google 研究院、Snap 研究院研究员，北京交通大学计算机学院教授、博导，字节跳动美国研究院创始成员及技术负责人"
           }
         ]
       },
@@ -259,26 +263,26 @@
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/qeIMabLBJgo",
         "host": {
-          "name": "主持人：王 晔",
-          "title": "AI启明妈妈发起人"
+          "name": "主持人：王晗",
+          "title": "北京市光明慈善基金会 \n AI启明项目发起人"
         },
         "guests": [
           {
             "name": "嘉宾：Claire",
-            "title": "个人媒体孵化博士"
+            "title": "大众媒体解析博士"
           },
           {
-            "name": "嘉宾：王 兰",
+            "name": "嘉宾：于兰",
             "title": "中学教师"
           },
           {
-            "name": "嘉宾：高 江",
-            "title": "AI不神秘 与席课程号 学生观察员2-3名"
+            "name": "嘉宾：简江",
+            "title": "AI不神秘 首席课程官 \n 学生观察员2-3名"
           }
         ]
       },
       {
-        "time": "19:30-22:00",
+        "time": "18:30-22:00",
         "location": "原点学堂",
         "activity": "用openclaw+skill打造飞书数字团队",
         "signup": "点击报名 >>>",
@@ -317,12 +321,16 @@
         },
         "guests": [
           {
-            "name": "嘉宾：陈安林",
-            "title": "国子盛视技术负责人 董事长"
+            "name": "嘉宾：陈牧",
+            "title": "星工聚将 技术负责人"
           },
           {
-            "name": "嘉宾：张安业",
-            "title": "均安集团首席人工智能科学家"
+            "name": "嘉宾：李忠宇",
+            "title": "国金产业研究中心-执行董事"
+          },
+          {
+            "name": "嘉宾：张家兴",
+            "title": "招商集团首席人工智能科学家"
           }
         ]
       },
@@ -333,17 +341,17 @@
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/wapz9NJ9XKl",
         "host": {
-          "name": "主持人：AI探索弗兰克",
-          "title": "联众百炼大使 CTO 私教"
+          "name": "主持人：AI异类弗兰克",
+          "title": "AI自媒体博主"
         },
         "guests": [
           {
-            "name": "嘉宾: 木 木",
-            "title": "动飞技术负责人"
+            "name": "嘉宾: 宁辽原",
+            "title": "TTC联合创始人 & CTO（前微软研究院/Azure云/字节跳动飞书技术高管）"
           },
           {
-            "name": "嘉宾：李易明",
-            "title": "HSVO+AI 创始人/博士"
+            "name": "嘉宾：龚易明",
+            "title": "Psygo AI 创始人 \n 西交大少年班21岁博士"
           },
           {
             "name": "嘉宾：金易明",
