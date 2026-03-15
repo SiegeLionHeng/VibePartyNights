@@ -164,10 +164,6 @@
         "activity": "【嗨点小圆桌 Podcast】",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/iU4X7hUEeGl",
-        "host": {
-          "name": "主持人：卡兹克(拟邀)",
-          "title": ""
-        },
         "guests": [
           {
             "name": "嘉宾：黄超",
@@ -265,7 +261,7 @@
         "guests": [
           {
             "name": "嘉宾：Claire",
-            "title": "大众媒体解析博士"
+            "title": "大众媒体解析博主"
           },
           {
             "name": "嘉宾：于兰",
@@ -273,7 +269,11 @@
           },
           {
             "name": "嘉宾：简江",
-            "title": "AI不神秘 首席课程官 \n 学生观察员2-3名"
+            "title": "AI不神秘 首席课程官"
+          },
+          {
+            "name": "学生观察员2-3名",
+            "title": ""
           }
         ]
       },
