@@ -12,9 +12,16 @@
         "signupUrl": "https://wxaurl.cn/frPCJqRpZ6e"
       },
       {
+        "time": "18:00-20:30",
+        "location": "AI原点社区原点大厦展厅",
+        "activity": "从中国出发，到全球增长：AI 创业者该如何判断自己的第一步",
+        "signup": "点击报名 >>>",
+        "signupUrl": "https://wxaurl.cn/o3hXsjhhDtv"
+      },
+      {
         "time": "09:30-12:00",
         "location": "原点学堂",
-        "activity": "【嗨点小圆桌 Podcast】\n Praxis On Mic ｜ \n 从中国出发，到全球增长",
+        "activity": "【嗨点小圆桌 Podcast】Praxis On Mic｜从中国出发，到全球增长",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/mrg5HmYhNyh",
         "host": {
@@ -75,13 +82,6 @@
     "whiteText": true,
     "items": [
       {
-        "time": "14:00-18:00",
-        "location": "AI原点社区原点大厦展厅",
-        "activity": "AI时代的人才解码",
-        "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/efQoP9ggRcb"
-      },
-      {
         "time": "18:00-21:00",
         "location": "AI原点社区原点大厦展厅",
         "activity": "VibeCoding，都是我的错！创作者吐槽酒局",
@@ -119,14 +119,14 @@
       {
         "time": "14:00-18:00",
         "location": "AI原点社区原点大厦展厅",
-        "activity": "不下牌桌 & 原点·硅基社区：AIGC创新分享会",
+        "activity": "AIGC创新分享会",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/wctKjx8vNye"
       },
       {
         "time": "18:00-21:00",
         "location": "AI原点社区原点大厦展厅",
-        "activity": "T-ONE创新中心：当超级个体遇上超级代码",
+        "activity": "当超级个体遇上超级代码",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/ll8KhO9C6Iu"
       },
@@ -142,21 +142,14 @@
         },
         "guests": [
           {
-            "name": "嘉宾：李崇国",
-            "title": "米塔视角CEO"
+            "name": "嘉宾：宋崇国",
+            "title": "米塔视界CEO"
           },
           {
             "name": "嘉宾：熊昺辉",
             "title": "可梦AI创始人"
           }
         ]
-      },
-      {
-        "time": "13:00-15:00",
-        "location": "原点学堂",
-        "activity": "【嗨点小圆桌 Podcast】",
-        "signup": "点击报名 >>>",
-        "signupUrl": "https://wxaurl.cn/JSKuCxZRkAf"
       },
       {
         "time": "15:00-17:00",
@@ -167,14 +160,14 @@
         "guests": [
           {
             "name": "嘉宾：黄超",
-            "title": "香港大学数据科学研究所及计算智能与数据科学子学院助理教授、博士生导师"
+            "title": "香港大学数据科学研究所及计算与数据科学学院助理教授、博士生导师"
           }
         ]
       },
       {
         "time": "18:00-21:00",
         "location": "原点学堂",
-        "activity": "【原点派对夜 Social】原点同学会见面日\n“钳”里无限·破圈之夜",
+        "activity": "【原点派对夜 Social】原点同学会见面日“钳”里无限·破圈之夜",
         "signup": "【开放报名】>>>",
         "signupUrl": "https://wxaurl.cn/7wbzeMh7dov"
       },
@@ -192,6 +185,13 @@
     "bgImage": "/pic/bg-0328.png",
     "whiteText": false,
     "items": [
+      {
+        "time": "14:00-18:00",
+        "location": "AI原点社区原点大厦展厅",
+        "activity": "AI时代的人才解码",
+        "signup": "点击报名 >>>",
+        "signupUrl": "https://wxaurl.cn/efQoP9ggRcb"
+      },
       {
         "time": "18:00-21:00",
         "location": "AI原点社区原点大厦展厅",
@@ -214,7 +214,7 @@
         "signupUrl": "https://wxaurl.cn/7qWQXrxyAMa",
         "host": {
           "name": "主持人：王秦州",
-          "title": "自媒体科技捕手联合主理人、Tech Bridge北京负责人"
+          "title": "自媒体科技捕手联合主理人、TechBridge北京负责人"
         },
         "guests": [
           {
@@ -230,7 +230,7 @@
       {
         "time": "16:00-18:00",
         "location": "原点学堂",
-        "activity": "【AI嗨点小圆桌 Podcast】硅谷AI大厂归国人才系列对话",
+        "activity": "【A嗨点小圆桌 Podcast】硅谷AI大厂归国人才系列对话",
         "signup": "点击报名 >>>",
         "signupUrl": "https://wxaurl.cn/2sC7Ay9Ot3p",
         "host": {
@@ -343,7 +343,7 @@
           },
           {
             "name": "嘉宾：龚易明",
-            "title": "Psygo AI 创始人 \n 西交大少年班21岁博士"
+            "title": "PsyGo AI 创始人 西交大少年班21岁博士"
           }
         ]
       },

@@ -283,10 +283,10 @@ html, body {
 }
 
 .guest-divider {
-  width: 13px;
+  width: 14px;
   height: 1px;
   background: #000;
-  margin-top: 6px;
+  margin-top: 7px;
   transform: rotate(90deg);
   margin-left: 5px;
   margin-right: 5px;
@@ -296,7 +296,6 @@ html, body {
   font-size: 14px;
   font-weight: 500;
   color: #000;
-  line-height: 16px;
 }
 
 .host-section {
@@ -324,7 +323,6 @@ html, body {
   font-size: 14px;
   font-weight: 500;
   color: #000;
-  line-height: 16px;
 }
 
 .item-row {
