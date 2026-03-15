@@ -26,7 +26,8 @@
             class="schedule-item"
             @click="handleSignup(item)"
           >
-            <div class="item-main">
+            <img v-if="item.bgImage" :src="item.bgImage" class="item-bg-image" />
+            <div class="item-main" v-if="!item.bgImage">
               <div class="item-row">
                 <div class="time-block">
                   <div class="dot" :class="{ white: day.whiteText }"></div>
@@ -42,19 +43,19 @@
                 >{{ item.signup }}</span>
               </div>
             </div>
-            <div class="host-section" v-if="item.host">
+            <div class="host-section" v-if="item.host && !item.bgImage">
               <span class="host-name" :class="{ white: day.whiteText }">{{ item.host.name }}</span>
               <div class="host-divider" :class="{ white: day.whiteText }" v-if="item.host.title"></div>
               <span class="host-title" :class="{ white: day.whiteText }" v-if="item.host.title" v-html="item.host.title.replace(/\n/g, '<br>')"></span>
             </div>
-            <div class="guests-section" v-if="item.guests && item.guests.length > 0">
+            <div class="guests-section" v-if="item.guests && item.guests.length > 0 && !item.bgImage">
               <div class="guest" v-for="(guest, gIndex) in item.guests" :key="gIndex">
                 <span class="guest-name" :class="{ white: day.whiteText }">{{ guest.name }}</span>
                 <div class="guest-divider" :class="{ white: day.whiteText }" v-if="guest.title"></div>
                 <span class="guest-title" :class="{ white: day.whiteText }" v-if="guest.title" v-html="guest.title.replace(/\n/g, '<br>')"></span>
               </div>
             </div>
-            <div class="divider" :class="{ white: day.whiteText }" v-if="index < day.items.length - 1"></div>
+            <div class="divider" :class="{ white: day.whiteText }" v-if="false"></div>
           </div>
         </div>
       </div>
@@ -250,6 +251,12 @@ html, body {
   flex-direction: column;
   padding: 8px 0;
   cursor: pointer;
+}
+
+.item-bg-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .item-main {
