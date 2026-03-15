@@ -91,6 +91,7 @@ const images = [
   '/pic/images/bg_8.jpg',
   '/pic/images/bg_9.jpg',
   '/pic/images/bg_10.jpg',
+  '/pic/images/bg_11.jpg',
 ]
 
 const URL_LINK = 'https://wxaurl.cn/ThyeBBtTz6q'
@@ -182,6 +183,7 @@ html, body {
   width: 100%;
   min-height: 200vh;
   background-size: 100% auto;
+  background-color: #000;
   background-position: top center;
   background-repeat: no-repeat;
   position: relative;
@@ -309,6 +311,7 @@ html, body {
   font-size: 14px;
   font-weight: 700;
   color: #000;
+  white-space: nowrap;
 }
 
 .host-divider {
