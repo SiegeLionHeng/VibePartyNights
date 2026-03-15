@@ -44,14 +44,14 @@
             </div>
             <div class="host-section" v-if="item.host">
               <span class="host-name" :class="{ white: day.whiteText }">{{ item.host.name }}</span>
-              <div class="host-divider" :class="{ white: day.whiteText }"></div>
-              <span class="host-title" :class="{ white: day.whiteText }" v-html="item.host.title.replace(/\n/g, '<br>')"></span>
+              <div class="host-divider" :class="{ white: day.whiteText }" v-if="item.host.title"></div>
+              <span class="host-title" :class="{ white: day.whiteText }" v-if="item.host.title" v-html="item.host.title.replace(/\n/g, '<br>')"></span>
             </div>
             <div class="guests-section" v-if="item.guests && item.guests.length > 0">
               <div class="guest" v-for="(guest, gIndex) in item.guests" :key="gIndex">
                 <span class="guest-name" :class="{ white: day.whiteText }">{{ guest.name }}</span>
-                <div class="guest-divider" :class="{ white: day.whiteText }"></div>
-                <span class="guest-title" :class="{ white: day.whiteText }" v-html="guest.title.replace(/\n/g, '<br>')"></span>
+                <div class="guest-divider" :class="{ white: day.whiteText }" v-if="guest.title"></div>
+                <span class="guest-title" :class="{ white: day.whiteText }" v-if="guest.title" v-html="guest.title.replace(/\n/g, '<br>')"></span>
               </div>
             </div>
             <div class="divider" :class="{ white: day.whiteText }" v-if="index < day.items.length - 1"></div>
