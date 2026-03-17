@@ -9,23 +9,25 @@
         "location": "AI原点社区原点大厦展厅",
         "activity": "【AI工作坊 Hackathon】工作坊开营",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0325/25-01.png",
-        "signupUrl": "https://wxaurl.cn/frPCJqRpZ6e"
+        "bgImage": "/pic/0325/25-01.png",
+        "signupUrl": "https://wxaurl.cn/frPCJqRpZ6e",
+        "activityId": "0bd619d159c00000"
       },
       {
         "time": "18:00-20:30",
         "location": "AI原点社区原点大厦展厅",
         "activity": "从中国出发，到全球增长：AI 创业者该如何判断自己的第一步",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0325/25-02.png",
-        "signupUrl": "https://wxaurl.cn/o3hXsjhhDtv"
+        "bgImage": "/pic/0325/25-02.png",
+        "signupUrl": "https://wxaurl.cn/o3hXsjhhDtv",
+        "activityId": "0bdb131344800000"
       },
       {
         "time": "09:30-12:00",
         "location": "原点学堂",
         "activity": "【嗨点小圆桌 Podcast】Praxis On Mic｜从中国出发，到全球增长",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0325/25-03.png",
+        "bgImage": "/pic/0325/25-03.png",
         "signupUrl": "https://wxaurl.cn/mrg5HmYhNyh",
         "host": {
           "name": "主持人：朱峰",
@@ -40,14 +42,15 @@
             "name": "嘉宾：苏菲",
             "title": "Praxis（AI+出海营销增长公会）\n 联合发起人兼生态合作负责人"
           }
-        ]
+        ],
+        "activityId": "0bd61e3abc800000"
       },
       {
         "time": "16:00-18:00",
         "location": "原点学堂",
         "activity": "【嗨点小圆桌 Podcast】AI浪潮下，从象牙塔青年掀起的一朵朵创业浪花",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0325/25-04.png",
+        "bgImage": "/pic/0325/25-04.png",
         "signupUrl": "https://wxaurl.cn/RBTUrkU1wMb",
         "guests": [
           {
@@ -62,23 +65,26 @@
             "name": "嘉宾：张铮",
             "title": "清华大学学生创业协会 主席"
           }
-        ]
+        ],
+        "activityId": "0bd61f30c0800000"
       },
       {
         "time": "18:00-21:00",
         "location": "原点学堂",
         "activity": "【原点派对夜 Social】冷餐会",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0325/25-05.png",
-        "signupUrl": "https://wxaurl.cn/sAwyyWqlNqd"
+        "bgImage": "/pic/0325/25-05.png",
+        "signupUrl": "https://wxaurl.cn/sAwyyWqlNqd",
+        "activityId": "0bd61fe700c00000"
       },
       {
         "time": "18:00-21:00",
         "location": "原点大厦食堂",
         "activity": "【原点派对夜 Social】AI火锅局",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0325/25-06.png",
-        "signupUrl": "https://wxaurl.cn/irqUDyBCh1p"
+        "bgImage": "/pic/0325/25-06.png",
+        "signupUrl": "https://wxaurl.cn/irqUDyBCh1p",
+        "activityId": "0bd62054a4c00000"
       }
     ]
   },
@@ -92,40 +98,45 @@
         "location": "AI原点社区原点大厦展厅",
         "activity": "AI时代的人才解码",
         "signup": "点击报名 >>>",
-         "bgImage":"/pic/0326/26-01.png",
-        "signupUrl": "https://wxaurl.cn/efQoP9ggRcb"
+        "bgImage": "/pic/0326/26-01.png",
+        "signupUrl": "https://wxaurl.cn/efQoP9ggRcb",
+        "activityId": ""
       },
       {
         "time": "18:00-21:00",
         "location": "AI原点社区原点大厦展厅",
         "activity": "VibeCoding，都是我的错！创作者吐槽酒局",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0326/26-02.png",
-        "signupUrl": "https://wxaurl.cn/82PtX0Kv4bm"
+        "bgImage": "/pic/0326/26-02.png",
+        "signupUrl": "https://wxaurl.cn/82PtX0Kv4bm",
+        "activityId": ""
       },
       {
         "time": "10:00-18:00",
         "location": "原点bar",
         "activity": "疯狂星期四 x Vibe Launch",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0326/26-03.png",
-        "signupUrl": "https://wxaurl.cn/ODBoGkRVKsn"
+        "bgImage": "/pic/0326/26-03.png",
+        "signupUrl": "https://wxaurl.cn/ODBoGkRVKsn",
+        "activityId": ""
       },
       {
         "time": "18:00-21:00",
         "location": "原点学堂",
         "activity": "【原点派对夜 Social】冷餐会",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0326/26-04.png",  
-        "signupUrl": "https://wxaurl.cn/lIhYbf4pf5i"
+        "bgImage": "/pic/0326/26-04.png",
+        "signupUrl": "https://wxaurl.cn/lIhYbf4pf5i",
+        "activityId": ""
       },
       {
         "time": "18:00-21:00",
         "location": "原点大厦食堂",
         "activity": "【原点派对夜 Social】AI火锅局-九合创投AI奇妙夜",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0326/26-05.png",  
-        "signupUrl": "https://wxaurl.cn/KlntJhBFGxc"
+        "bgImage": "/pic/0326/26-05.png",
+        "signupUrl": "https://wxaurl.cn/KlntJhBFGxc",
+        "activityId": ""
       }
     ]
   },
@@ -139,23 +150,25 @@
         "location": "AI原点社区原点大厦展厅",
         "activity": "AIGC创新分享会",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0327/27-01.png",
-        "signupUrl": "https://wxaurl.cn/wctKjx8vNye"
+        "bgImage": "/pic/0327/27-01.png",
+        "signupUrl": "https://wxaurl.cn/wctKjx8vNye",
+        "activityId": ""
       },
       {
         "time": "18:00-21:00",
         "location": "AI原点社区原点大厦展厅",
         "activity": "当超级个体遇上超级代码",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0327/27-02.png",
-        "signupUrl": "https://wxaurl.cn/ll8KhO9C6Iu"
+        "bgImage": "/pic/0327/27-02.png",
+        "signupUrl": "https://wxaurl.cn/ll8KhO9C6Iu",
+        "activityId": ""
       },
       {
         "time": "10:00-12:00",
         "location": "原点学堂",
         "activity": "【嗨点小圆桌 Podcast】空间智能与内容工业化",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0327/27-03.png",
+        "bgImage": "/pic/0327/27-03.png",
         "signupUrl": "https://wxaurl.cn/ktdPkGOV88h",
         "host": {
           "name": "主持人：薛彦泽",
@@ -170,37 +183,41 @@
             "name": "嘉宾：熊昺辉",
             "title": "可梦AI创始人"
           }
-        ]
+        ],
+        "activityId": ""
       },
       {
         "time": "15:00-17:00",
         "location": "原点学堂",
         "activity": "【嗨点小圆桌 Podcast】",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0327/27-04.png",
+        "bgImage": "/pic/0327/27-04.png",
         "signupUrl": "https://wxaurl.cn/iU4X7hUEeGl",
         "guests": [
           {
             "name": "嘉宾：黄超",
             "title": "香港大学数据科学研究所及计算与数据科学学院助理教授、博士生导师"
           }
-        ]
+        ],
+        "activityId": ""
       },
       {
         "time": "18:00-21:00",
         "location": "原点学堂",
         "activity": "【原点派对夜 Social】原点同学会见面日“钳”里无限·破圈之夜",
         "signup": "【开放报名】>>>",
-        "bgImage":"/pic/0327/27-05.png",
-        "signupUrl": "https://wxaurl.cn/7wbzeMh7dov"
+        "bgImage": "/pic/0327/27-05.png",
+        "signupUrl": "https://wxaurl.cn/7wbzeMh7dov",
+        "activityId": ""
       },
       {
         "time": "18:00-21:00",
         "location": "原点大厦食堂",
         "activity": "【原点派对夜 Social】AI火锅局-云启资本 Y Transformer",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0327/27-06.png",
-        "signupUrl": "https://wxaurl.cn/7eb4MzydLOo"
+        "bgImage": "/pic/0327/27-06.png",
+        "signupUrl": "https://wxaurl.cn/7eb4MzydLOo",
+        "activityId": ""
       }
     ]
   },
@@ -214,23 +231,25 @@
         "location": "AI原点社区原点大厦展厅",
         "activity": "《Talk With》AI主题桌游试玩会",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0328/28-01.png",
-        "signupUrl": "https://wxaurl.cn/h3zOQMcLjNg"
+        "bgImage": "/pic/0328/28-01.png",
+        "signupUrl": "https://wxaurl.cn/h3zOQMcLjNg",
+        "activityId": ""
       },
       {
         "time": "09:30-12:00",
         "location": "原点学堂",
         "activity": "人工智能产业沙龙",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0328/28-02.png",
-        "signupUrl": "https://wxaurl.cn/fMGB5Xf6a1j"
+        "bgImage": "/pic/0328/28-02.png",
+        "signupUrl": "https://wxaurl.cn/fMGB5Xf6a1j",
+        "activityId": ""
       },
       {
-       "time": "14:00-16:00",
+        "time": "14:00-16:00",
         "location": "原点学堂",
         "activity": "【嗨点小圆桌 Podcast】“天基智能”与“地面具身”",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0328/28-03.png",
+        "bgImage": "/pic/0328/28-03.png",
         "signupUrl": "https://wxaurl.cn/7qWQXrxyAMa",
         "host": {
           "name": "主持人：王秦州",
@@ -245,14 +264,15 @@
             "name": "嘉宾：曹德志",
             "title": "星测未来联合创始人兼COO"
           }
-        ]
+        ],
+        "activityId": ""
       },
       {
         "time": "16:00-18:00",
         "location": "原点学堂",
         "activity": "【A嗨点小圆桌 Podcast】硅谷AI大厂归国人才系列对话",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0328/28-04.png",
+        "bgImage": "/pic/0328/28-04.png",
         "signupUrl": "https://wxaurl.cn/2sC7Ay9Ot3p",
         "host": {
           "name": "主持人：王兆洋",
@@ -267,14 +287,15 @@
             "name": "嘉宾：靳潇杰",
             "title": "前 Google 研究院、Snap 研究院研究员，北京交通大学计算机学院教授、博导，字节跳动美国研究院创始成员及技术负责人"
           }
-        ]
+        ],
+        "activityId": ""
       },
       {
         "time": "14:00-18:00",
         "location": "原点bar",
         "activity": "AI时代教育范式&龙虾避坑指南",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0328/28-05.png",
+        "bgImage": "/pic/0328/28-05.png",
         "signupUrl": "https://wxaurl.cn/qeIMabLBJgo",
         "host": {
           "name": "主持人：王晗",
@@ -297,23 +318,26 @@
             "name": "学生观察员2-3名",
             "title": ""
           }
-        ]
+        ],
+        "activityId": ""
       },
       {
         "time": "18:30-22:00",
         "location": "原点学堂",
         "activity": "用openclaw+skill打造飞书数字团队",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0328/28-06.png",
-        "signupUrl": "https://wxaurl.cn/jTCJzaOLf5s"
+        "bgImage": "/pic/0328/28-06.png",
+        "signupUrl": "https://wxaurl.cn/jTCJzaOLf5s",
+        "activityId": ""
       },
       {
         "time": "18:00-21:00",
         "location": "原点大厦食堂",
         "activity": "【原点派对夜 Social】AI火锅局",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0328/28-07.png",
-        "signupUrl": "https://wxaurl.cn/1wX9mTlofRs"
+        "bgImage": "/pic/0328/28-07.png",
+        "signupUrl": "https://wxaurl.cn/1wX9mTlofRs",
+        "activityId": ""
       }
     ]
   },
@@ -327,15 +351,16 @@
         "location": "AI原点社区原点大厦展厅",
         "activity": "【AI工作坊 Hackathon】路演+颁奖",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0329/29-01.png",
-        "signupUrl": "https://wxaurl.cn/zrAQd4WfwTg"
+        "bgImage": "/pic/0329/29-01.png",
+        "signupUrl": "https://wxaurl.cn/zrAQd4WfwTg",
+        "activityId": ""
       },
       {
         "time": "09:30-12:00",
         "location": "原点学堂",
         "activity": "【AI嗨点小圆桌 Podcast】具身智能",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0329/29-02.png",
+        "bgImage": "/pic/0329/29-02.png",
         "signupUrl": "https://wxaurl.cn/hE4frQjeWfg",
         "host": {
           "name": "主持人：陈姚戈",
@@ -350,14 +375,15 @@
             "name": "嘉宾：李忠宇",
             "title": "国金产业研究中心-执行董事"
           }
-        ]
+        ],
+        "activityId": ""
       },
       {
         "time": "14:00-16:00",
         "location": "原点学堂",
         "activity": "【AI嗨点小圆桌 Podcast】OpenClaw之后，AI的未来在哪里？",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0329/29-03.png",
+        "bgImage": "/pic/0329/29-03.png",
         "signupUrl": "https://wxaurl.cn/wapz9NJ9XKl",
         "host": {
           "name": "主持人：AI异类弗兰克",
@@ -372,23 +398,26 @@
             "name": "嘉宾：龚易明",
             "title": "PsyGo AI 创始人 西交大少年班21岁博士"
           }
-        ]
+        ],
+        "activityId": ""
       },
       {
         "time": "18:00-21:00",
         "location": "原点学堂",
         "activity": "【原点派对夜 Social】冷餐会",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0329/29-04.png",
-        "signupUrl": "https://wxaurl.cn/xAhm257ziBt"
+        "bgImage": "/pic/0329/29-04.png",
+        "signupUrl": "https://wxaurl.cn/xAhm257ziBt",
+        "activityId": ""
       },
       {
         "time": "18:00-21:00",
         "location": "原点大厦食堂",
         "activity": "【原点派对夜 Social】AI火锅局-硅星人和他的伙伴们",
         "signup": "点击报名 >>>",
-        "bgImage":"/pic/0329/29-05.png",
-        "signupUrl": "https://wxaurl.cn/yVO4wF3rT8b"
+        "bgImage": "/pic/0329/29-05.png",
+        "signupUrl": "https://wxaurl.cn/yVO4wF3rT8b",
+        "activityId": ""
       }
     ]
   }

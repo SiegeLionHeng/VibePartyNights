@@ -119,24 +119,46 @@ const onWorkShopLoad = () => {
   }
 }
 
+const isInMiniProgram = () => {
+  return window.__wxjs_environment === 'miniprogram' || 
+         navigator.userAgent.includes('miniProgram') ||
+         /wechatdevtools/i.test(navigator.userAgent)
+}
+
 const isWeChat = () => {
   const userAgent = navigator.userAgent.toLowerCase()
   return userAgent.indexOf('micromessenger') > -1
 }
 
-const isInMiniProgram = () => {
-  return window.__wxjs_environment === 'miniprogram' || navigator.userAgent.includes('miniProgram')
+const navigateToActivity = (url, activityId = '0bcf4dac0c000000', circleId = '1') => {
+  const userAgent = navigator.userAgent.toLowerCase()
+  
+  alert(`navigateToActivity - activityId: ${activityId}, circleId: ${circleId}, url: ${url}`)
+  
+  if (window.__wxjs_environment === 'miniprogram' || userAgent.includes('miniprogram')) {
+    if (window.wx && window.wx.miniProgram) {
+      const miniProgramUrl = `/subpackages/main/webview/index.html?activityId=${activityId}&circleId=${circleId}&title=activityDetail`
+      alert(`跳转小程序: ${miniProgramUrl}`)
+      window.wx.miniProgram.redirectTo({ url: miniProgramUrl })
+      return
+    }
+  }
+  
+  window.location.href = url
 }
 
 const handleSignup = (item) => {
   const activityId = item.activityId || '0bcf4dac0c000000'
   const circleId = item.circleId || '1'
+  const url = item.signupUrl || URL_LINK
   
-  window.location.href = item.signupUrl || URL_LINK
+  alert(`activityId: ${activityId}, circleId: ${circleId}, url: ${url}`)
+  
+  navigateToActivity(url, activityId, circleId)
 }
 
 const handleWorkShopClick = () => {
-  window.location.href = URL_LINK
+  navigateToActivity(URL_LINK)
 }
 
 const scheduleData = ref([])
